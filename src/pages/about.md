@@ -3,7 +3,7 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-## Currently building No Assembly (https://www.noassembly.ghost.io)
+## Currently building NoAssembly (https://www.noassembly.ghost.io)
 
 ---
 
