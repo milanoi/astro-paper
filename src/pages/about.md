@@ -3,34 +3,16 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+## Currently building No Assembly (https://www.noassembly.ghost.io)
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+---
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+I’m a data scientist and design enthusiast who loves to build and code. I strongly believe in maintaining a high standard for product quality, and I recognize that gaining a deep understanding of constraints is crucial elevating product quality.
 
-<div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
+I love engaging with technical communites and I’m passionate about commradiere. I know that successful products are collaborative endeavors spanning research, engineering, product, design and more.
 
-## Tech Stack
+I obsess about the details and strive for excellence - not perfection. I believe in focusing on the process and refining the finer details. Results will always follow. I spend a lot of time on the intangible parts of a product, like research and product strategy, to help focus teams and evangelize the direction. I enjoy documentation and [content creation](https://noassembly.ghost.io/) as well.
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+I am currently building [No Assembly](https://noassembly.ghost.io/), an ambitious and exciting project. No Assembly’s overarching mission is to democratize machine learning through open education and to encourage diverse perspectives in AI, through other engaging and insightful content. It is a community of learners, builders, enthusiasts, policy makers and industry professionals working together to leverage this trasformative technology for the long term good of humanity. It’s a project I’m building in public. If you have some ideas to support this mission and you’d like to get involved, please reach out via the contact page on the No Assembly website. You can view the project roadmap [here](https://noassembly.ghost.io/about/).
 
-## Features
-
-Here are certain features of this site.
-
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+You can find me on Twitter (@milanoi_) where I like to talk about tech, No Assembly and just generally things that interest me.
