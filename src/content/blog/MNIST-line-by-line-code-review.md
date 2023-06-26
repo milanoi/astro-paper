@@ -85,6 +85,7 @@ These lines reshape the training images to have dimensions `(number of samples, 
 
 <aside>
 💡 
+  
   **Convergence** in this context refers to the process of gradually reaching an optimal state where the model's parameters are adjusted to minimize the loss function and achieve stable performance. It signifies that the model has learned from the training data and can make reliable predictions
 
 </aside>
