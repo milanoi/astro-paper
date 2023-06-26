@@ -118,6 +118,8 @@ Here, a sequential model is created using the Keras `Sequential` class. The elli
 
 </aside>
 
+### Sequential Model
+
 Let’s get into the Sequential Model. There are several ways to create a model in Keras. This one is called the "Sequential API."
 
 ```python
