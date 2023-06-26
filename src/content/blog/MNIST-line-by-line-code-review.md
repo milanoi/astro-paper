@@ -65,7 +65,7 @@ print("Prediction:", digit)
 
 ```
 
-### The Breaking Down
+## The Break Down
 
 Let's go together line by line and understand what's happening in this code. I’ll skip the import section because I believe if you’re implementing any kind of machine learning model you already know what the import function does.
 
@@ -84,7 +84,8 @@ x_train = x_train.astype("float32") / 255.0
 These lines reshape the training images to have dimensions `(number of samples, 28, 28, 1)`, where 28x28 is the image size and 1 represents the number of channels (grayscale). The reshaping is necessary to match the expected input shape of the model. The images are also converted to the float32 data type and normalized by dividing them by 255.0, scaling the pixel values to a range between 0 and 1. This normalization aids in faster convergence during training.
 
 <aside>
-💡 **Convergence** in this context refers to the process of gradually reaching an optimal state where the model's parameters are adjusted to minimize the loss function and achieve stable performance. It signifies that the model has learned from the training data and can make reliable predictions
+💡 
+  **Convergence** in this context refers to the process of gradually reaching an optimal state where the model's parameters are adjusted to minimize the loss function and achieve stable performance. It signifies that the model has learned from the training data and can make reliable predictions
 
 </aside>
 
@@ -96,7 +97,8 @@ y_train = to_categorical(y_train)
 This line performs one-hot encoding on the training labels (`y_train`). It converts the labels into a categorical format, where each label is represented as a binary vector. This encoding is suitable for multi-class classification tasks like digit recognition.
 
 <aside>
-💡 **One-hot encoding** is a technique used to convert categorical data into binary format. It converts categorical variables into a numerical representation that allows algorithms to effectively process and understand the data. For example: Suppose we have a categorical variable "Color" with three categories: Red, Green, and Blue. In one-hot encoding, we create three binary features, one for each category. If we have a data point with the color "Red," the one-hot encoded representation would be [1, 0, 0]. Here, the first element represents "Red" and is set to 1, while the other elements (representing "Green" and "Blue") are set to 0. Similarly, for "Green," the one-hot encoding would be [0, 1, 0], and for "Blue," it would be [0, 0, 1]. Each feature represents whether the observation belongs to a particular category or not.
+💡 
+  **One-hot encoding** is a technique used to convert categorical data into binary format. It converts categorical variables into a numerical representation that allows algorithms to effectively process and understand the data. For example: Suppose we have a categorical variable "Color" with three categories: Red, Green, and Blue. In one-hot encoding, we create three binary features, one for each category. If we have a data point with the color "Red," the one-hot encoded representation would be [1, 0, 0]. Here, the first element represents "Red" and is set to 1, while the other elements (representing "Green" and "Blue") are set to 0. Similarly, for "Green," the one-hot encoding would be [0, 1, 0], and for "Blue," it would be [0, 0, 1]. Each feature represents whether the observation belongs to a particular category or not.
 
 </aside>
 
@@ -108,7 +110,8 @@ model = Sequential([...])
 Here, a sequential model is created using the Keras `Sequential` class. The ellipsis (`[...]`) represents the layers added to the model. In this implementation, the model consists of ***convolutional layers, pooling layers*,** and ***dense layers***, which form a convolutional neural network (CNN). 
 
 <aside>
-💡 **Hyperparameters** are settings or configuration choices that are set before training the model. They are not learned from the data but are specified by the user. Examples of hyperparameters include the learning rate, the number of layers in the model, the number of neurons in each layer, etc. Choosing appropriate hyperparameters is crucial for the model's performance.
+💡 
+  **Hyperparameters** are settings or configuration choices that are set before training the model. They are not learned from the data but are specified by the user. Examples of hyperparameters include the learning rate, the number of layers in the model, the number of neurons in each layer, etc. Choosing appropriate hyperparameters is crucial for the model's performance.
 
 </aside>
 
@@ -145,7 +148,8 @@ The design decisions and trade-offs in this model architecture are discussed bel
 If you haven’t noticed already, I love using analogies to explain complex concepts in clear and simple English. Analogies are intuitive and make it easier to gain deep understanding. Incase you haven’t fully grasped what the jargon above means, here are some analogies that should make the model architecture more accessible.
 
 <aside>
-💡 **What is:**
+💡 
+  **What is:**
 
 **A Convolutional Layer?**
 
@@ -192,7 +196,8 @@ model.compile(optimizer=optimizer, loss="categorical_crossentropy", metrics=["ac
 An optimizer (`SGD`) is instantiated with a learning rate of 0.01 and a momentum value of 0.9. The learning rate controls the step size during weight updates, while momentum helps accelerate convergence by accumulating past gradients. The choice of optimizer and its hyperparameters is a trade-off between training speed and convergence accuracy. The model is compiled with the optimizer, specifying `"categorical_crossentropy"` as the loss function for multi-class classification and `"accuracy"` as the metric to evaluate during training.
 
 <aside>
-💡 **SGD (Stochastic Gradient Descent)** is an optimization algorithm used during training to update the model's parameters based on the computed gradients of the loss function. It iteratively adjusts the parameters to minimize the loss and find the optimal values. Think of training a model as trying to find the lowest point in a hilly landscape. SGD is like a hiker who takes small steps downhill, adjusting their position based on the slope of the terrain. The goal is to reach the bottom of the hill, which represents the optimal solution. By repeatedly taking steps in the direction that leads to a steeper descent, the hiker gradually converges to the lowest point. Similarly, SGD adjusts the model's parameters step by step, guided by the gradients of the loss function, in order to reach the optimal solution and minimize the loss.
+💡 
+  **SGD (Stochastic Gradient Descent)** is an optimization algorithm used during training to update the model's parameters based on the computed gradients of the loss function. It iteratively adjusts the parameters to minimize the loss and find the optimal values. Think of training a model as trying to find the lowest point in a hilly landscape. SGD is like a hiker who takes small steps downhill, adjusting their position based on the slope of the terrain. The goal is to reach the bottom of the hill, which represents the optimal solution. By repeatedly taking steps in the direction that leads to a steeper descent, the hiker gradually converges to the lowest point. Similarly, SGD adjusts the model's parameters step by step, guided by the gradients of the loss function, in order to reach the optimal solution and minimize the loss.
 
 </aside>
 
