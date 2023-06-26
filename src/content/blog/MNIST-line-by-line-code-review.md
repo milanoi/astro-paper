@@ -7,7 +7,6 @@ featured: true
 draft: false
 tags:
   - article
-ogImage: ""
 description:
   A line by line explainer of a machine learning model using the popular MNIST dataset
 ---
