@@ -1,3 +1,16 @@
+---
+author: Sonia Milanoi
+pubDatetime: 2023-04-23T16:57:00Z
+title: MNIST: A Line-By-Line Code Review
+postSlug: MNIST-code-review
+featured: true
+draft: false
+tags:
+  - article
+ogImage: ""
+description:
+  A line by line explainer of a machine learning model using the popular MNIST dataset
+---
 
 This post explains how to create a simple Machine Learning model using the MNIST dataset. It covers the process of loading the dataset, reshaping it, normalizing it, one-hot encoding it, and creating a model using the Sequential API. It also explains the use of Conv2D layers, max pooling, flattening, and Dense layers. Finally, it covers the use of SGD as the optimizer and categorical cross-entropy as the loss function.
 
