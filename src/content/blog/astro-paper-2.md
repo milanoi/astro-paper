@@ -1,91 +1,45 @@
 ---
-author: Sat Naing
+author: Sonia Milanoi
 pubDatetime: 2023-01-30T15:57:52.737Z
-title: AstroPaper 2.0
-postSlug: astro-paper-2
+title: A Kenyan Digital Currency
+postSlug: essay
 featured: true
 ogImage: https://user-images.githubusercontent.com/53733092/215771435-25408246-2309-4f8b-a781-1f3d93bdf0ec.png
 tags:
   - release
-description: AstroPaper with the enhancements of Astro v2. Type-safe markdown contents, bug fixes and better dev experience etc.
 ---
+At this point in time, I firmly believe that crypotcurrencies are here to stay, and there wil be in the very near future an even more thriving decentralized economy and metaverse than there exists today. The most widely accepted use case for cryptocurrencies right now is as a store of value (Bitcoin, Litecoin) and enhanced privacy in financial transactions (Monero). As blockchain technology evolves, and other cutting edge technology like machine learning becomes more pervasive, I see many more use cases from identity verification (as an authentication tool to discover deep fakes, etc) to a stanard web native currency for the decentralized web. 
 
-Astro 2.0 has been released with some cool features, breaking changes, DX improvements, better error overlay and so on. AstroPaper takes advantage of those cool features, especially Content Collections API.
+However, despite all this possibility, the one I am excited about most is the possibility digital currencies give us to conduct macro expriemnts at regional levels (country, continent, etc.) Before crypotocurrencies existed, economists couldn’t conduct such experiements without expensive and extensive simulations of cellular atomata fed thousands of constraints to mimic real life. Now, a country with a central banking authority can create a digital currency and disberse it to its citizens, with specified constraints and in real time, over x amount of years observe the results of such an experiemnt.
 
-<!-- ![Introducing AstroPaper 2.0](https://user-images.githubusercontent.com/53733092/215683840-dc2502f5-8c5a-44f0-a26c-4e7180455056.png) -->
+### Introducing a Kenyan Digital Currency
 
-![Introducing AstroPaper 2.0](https://user-images.githubusercontent.com/53733092/215771435-25408246-2309-4f8b-a781-1f3d93bdf0ec.png)
+I believe digital currencies have the power to significantly increase countries’ economic outputs and even create wealth for it’s citizens. I envision an experiemnt for a Kenyan Digital Currency (KDC) to look like this: 
 
-## Table of contents
+1. **Introduction of Kenya Digital Currency (KDC):** The Kenyan government establishes its own digital currency, the KDC, built on a public decentralized blockchain. Think Bitcoin, where its blckchain is so decentralized, a 51% attack is virtually impossible and no single agent or collective of agents can alter transactions on any blcok. The KDC blockchain is designed to provide a secure, decentralized, and transparent medium of exchange for Kenyan citizens.
+2. **Distribution of KDC:** A standardized amount of KDC is distributed to every Kenyan citizen through an identity verification system. This ensures that each individual receives an equal initial allocation of the digital currency.
+3. **Immediate Use and Locked Portion:** The distributed KDC is divided into two portions. A portion is made immediately available for use, allowing Kenyan citizens to engage in transactions, online purchases, or transfers using the digital currency right away. The remaining portion is locked and accessible for use at a later specified time, encouraging individuals to hold onto their KDC and participate in the experiment for a longer duration while also maintaining and even increasing the value of the currency.
+4. **Tax Collection Mechanism:** The government could even implement a unique feature in the blockchain infrastructure that enables the collection of taxes without giving the government direct access to alter transactions. This would allow the government to receive KDC as tax payments directly from citizens' transactions while ensuring the integrity of a self-sufficient blockchain and ensuring every citizen meets their tax obligations. This mechanism could involve smart contracts or specific transaction protocols that automatically allocate a portion of each transaction as tax.
+5. **Monitoring and Evaluation:** Throughout the experiment, the government closely monitors the usage patterns, adoption rate, economic impact, and overall behavior of the KDC within the Kenyan economy. This data provides valuable insights into the feasibility, effectiveness, and potential benefits of a national digital currency and even allowing continuous input to the system to improve the effectiveness of the experiment based on specified desired outcomes. Countries would be able to implement incentives that promote socialist, capitalist, communist behaviors based, of course, on democratic processes.
+6. **Feedback and Adjustments:** The government would ideally actively seeks feedback from citizens, merchants, and other stakeholders involved in the experiment. Based on the feedback received and the data collected, the government can make adjustments to the KDC implementation, such as refining the tax collection process, enhancing user experience, addressing any identified challenges, or implementing additional features to support wider adoption.
+7. **Public Education and Support:** Initially, **e**xtensive public education campaigns to raise awareness about the benefits, usage, and security measures associated with the KDC. I use ‘extensive’ as a word loosely, specifically in Kenya, because the idea of a digital currency would not be so far fetched in a society where MPESA is the dominant financial transaction platform. Workshops, online resources, and community engagement initiatives are organized to ensure that citizens understand the functionality and potential of the digital currency.
 
-## Features & Changes
+### Implications of such an experiement?
 
-### Type-safe Frontmatters and Redefined Blog Schema
+Implementing a system like the Kenya Digital Currency (KDC) experiment could have several potential benefits for Kenyan citizens. 
 
-Frontmatter of AstroPaper 2.0 markdown contents are now type-safe thanks to Astro’s Content Collections. Blog schema is defined inside the `src/content/_schemas.ts` file.
+1. **Financial Inclusion:** Introducing a digital currency can provide greater financial inclusion, especially for those who are unbanked or have limited access to traditional banking services. Kenyan citizens, regardless of their geographic location or socioeconomic background, would have access to a thriving, decentralized digital currency ecosystem, enabling them to participate in digital transactions, online commerce, and explore financial services securely and transparently.
+2. **Economic Empowerment:** The KDC experiment could empower Kenyan citizens by providing them with a digital asset that has value and can be utilized for various economic activities. It may stimulate entrepreneurship, as individuals can use KDC to start and grow businesses, trade goods and services, and engage in economic activities within and beyond national borders. A digital currency for the East African Community could be a step further in exploring this idea where trade agreements are already in place.
+3. **Reduced Transaction Costs:** Digital currencies can potentially lower transaction costs compared to traditional financial systems. By leveraging blockchain technology, transactions conducted using KDC may have lower fees, quicker settlement times, and increased transparency. Goodbye MPESA fees! This can benefit both individuals and businesses by reducing the financial burden associated with traditional payment methods.
+4. **Enhanced Government Revenue:** The implementation of a tax collection mechanism on the KDC blockchain can streamline the revenue collection process for the government. It may lead to improved tax compliance, reduced tax evasion, and a more efficient collection system. As a result, the government could potentially generate additional revenue to fund public services and infrastructure development. Data from Kenya Revenue Authority shows that 91% of Kenyans currently DO NOT fulfil their tax obligations. Maybe a potential solution?
+5. **Increased Financial Literacy:** The introduction of a digital currency system could promote financial literacy and digital literacy among Kenyan citizens. Of course, It would require educational initiatives to ensure individuals understand the features, benefits, and responsible usage of digital currencies. This increased financial knowledge would undoubtedly have long-term positive effects on personal financial management and decision-making and better wealth management of the Kenyan society as a whole.
 
-### New Home for Blog contents
+Regarding wealth generation, the KDC experiment has the potential to contribute to wealth creation for Kenyan citizens in several ways:
 
-All the blog posts were moved from `src/contents` to `src/content/blog` directory.
+a. **Economic Opportunities:** By providing citizens with access to a digital currency, it can open up new economic opportunities, particularly in digital entrepreneurship, e-commerce, and digital asset investments. This could potentially lead to wealth accumulation for individuals who are able to leverage these opportunities effectively and this wealth could easily and securely be passed down to generations. Imagine the relief from land fraud cases at the Judiciary if you could verify transactions on an immutable public blockchain! A lot of resources could be reallocated to make the legal system more efficient and robust.
 
-### New Fetch API
+b. **Financial Inclusion:** The KDC experiment aims to include individuals who were previously excluded from formal financial systems. Even with MPESA prevalence, there is still a significant number of Kenyans who are excluded from any formal or semi-formal financial systems. By providing them with access to a digital currency, it can enable them to participate in economic activities, accumulate savings, and engage in wealth-building practices.
 
-Contents are now fetched with `getCollection` function. No relative path to the content needs to be specified anymore.
+c. **Investment and Savings:** With the availability of a digital currency, individuals may have opportunities to invest in digital assets, participate in decentralized finance (DeFi) protocols, created DAOs (think Chamas) or save in digital wallets. This exposure to new investment avenues could contribute to wealth generation and asset accumulation over time.
 
-```ts
-// old content fetching method
-- const postImportResult = import.meta.glob<MarkdownInstance<Frontmatter>>(
-  "../contents/**/**/*.md",);
-
-// new content fetching method
-+ const postImportResult = await getCollection("blog");
-```
-
-### Modified Search Logic for better Search Result
-
-In the older version of AstroPaper, when someone search some article, the search criteria keys that will be searched are `title`, `description` and `headings` (heading means all the headings h1 ~ h6 of the blog post). In AstroPaper v2, only `title` and `description` will be searched as the user types.
-
-### Renamed Frontmatter Properties
-
-The following frontmatter properties are renamed.
-
-| Old Names | New Names   |
-| --------- | ----------- |
-| datetime  | pubDatetime |
-| slug      | postSlug    |
-
-### Default Tag for blog post
-
-If a blog post doesn't have any tag (in other words, frontmatter property `tags` is not specified), the default tag `others` will be used for that blog post. But you can set the default tag in the `/src/content/_schemas.ts` file.
-
-```ts
-// src/contents/_schemas.ts
-export const blogSchema = z.object({
-  // ---
-  // replace "others" with whatever you want
-  tags: z.array(z.string()).default(["others"]),
-  ogImage: z.string().optional(),
-  description: z.string(),
-});
-```
-
-### New Predefined Dark Color Scheme
-
-AstroPaper v2 has a new dark color scheme (high contrast & low contrast) which is based on Astro's dark logo. Check out [this link](https://astro-paper.pages.dev/posts/predefined-color-schemes#astro-dark) for more info.
-
-![New Predefined Dark Color Scheme](https://user-images.githubusercontent.com/53733092/215680520-59427bb0-f4cb-48c0-bccc-f182a428d72d.svg)
-
-### Automatic Class Sorting
-
-AstroPaper 2.0 includes automatic class sorting with [TailwindCSS Prettier plugin](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
-
-### Updated Docs & README
-
-All the [#docs](https://astro-paper.pages.dev/tags/docs/) blog posts and [README](https://github.com/satnaing/astro-paper#readme) are updated for this AstroPaper v2.
-
-## Bug Fixes
-
-- fix broken tags in the Blog Post page
-- in a tag page, the last part of the breadcrumb is now updated to lower-case for consistency
-- exclude draft posts in a tag page
-- fix 'onChange value not updating issue' after a page reload
+It's important to note that the implications and wealth generation potential of a digital currency experiment like the KDC would depend on various factors, including the adoption rate, regulatory framework, economic conditions, and the overall implementation strategy. Careful monitoring, evaluation, and adjustment of the system would be necessary to maximize its positive impact on wealth generation and inclusive economic growth. With that said, I think a Kenyan Digital currency could have a massive positive sum effect on the society in the short, medium and long term. What do you think?
