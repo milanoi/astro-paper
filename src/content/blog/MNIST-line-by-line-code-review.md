@@ -98,6 +98,7 @@ This line performs one-hot encoding on the training labels (`y_train`). It conve
 
 <aside>
 💡 
+
   **One-hot encoding** is a technique used to convert categorical data into binary format. It converts categorical variables into a numerical representation that allows algorithms to effectively process and understand the data. For example: Suppose we have a categorical variable "Color" with three categories: Red, Green, and Blue. In one-hot encoding, we create three binary features, one for each category. If we have a data point with the color "Red," the one-hot encoded representation would be [1, 0, 0]. Here, the first element represents "Red" and is set to 1, while the other elements (representing "Green" and "Blue") are set to 0. Similarly, for "Green," the one-hot encoding would be [0, 1, 0], and for "Blue," it would be [0, 0, 1]. Each feature represents whether the observation belongs to a particular category or not.
 
 </aside>
@@ -111,6 +112,7 @@ Here, a sequential model is created using the Keras `Sequential` class. The elli
 
 <aside>
 💡 
+  
   **Hyperparameters** are settings or configuration choices that are set before training the model. They are not learned from the data but are specified by the user. Examples of hyperparameters include the learning rate, the number of layers in the model, the number of neurons in each layer, etc. Choosing appropriate hyperparameters is crucial for the model's performance.
 
 </aside>
@@ -149,6 +151,7 @@ If you haven’t noticed already, I love using analogies to explain complex conc
 
 <aside>
 💡 
+  
   **What is:**
 
 **A Convolutional Layer?**
@@ -197,6 +200,7 @@ An optimizer (`SGD`) is instantiated with a learning rate of 0.01 and a momentum
 
 <aside>
 💡 
+  
   **SGD (Stochastic Gradient Descent)** is an optimization algorithm used during training to update the model's parameters based on the computed gradients of the loss function. It iteratively adjusts the parameters to minimize the loss and find the optimal values. Think of training a model as trying to find the lowest point in a hilly landscape. SGD is like a hiker who takes small steps downhill, adjusting their position based on the slope of the terrain. The goal is to reach the bottom of the hill, which represents the optimal solution. By repeatedly taking steps in the direction that leads to a steeper descent, the hiker gradually converges to the lowest point. Similarly, SGD adjusts the model's parameters step by step, guided by the gradients of the loss function, in order to reach the optimal solution and minimize the loss.
 
 </aside>
