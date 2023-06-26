@@ -1,6 +1,6 @@
 ---
 author: Sonia Milanoi
-pubDatetime: 2023-04-23T16:57:00Z
+pubDatetime: 2023-04-23T16:57:00
 title: MNIST: A Line-By-Line Code Review
 postSlug: MNIST-code-review
 featured: true
