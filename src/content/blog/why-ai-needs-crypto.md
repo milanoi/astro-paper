@@ -12,7 +12,7 @@ description:
   - Democratizing AI through Decentralized Data Storage and Monetization: Advancing Access and Innovation
 ---
 
-## Introduction:
+## Introduction
 
 Artificial Intelligence (AI) has revolutionized various industries, driving the need for large-scale machine learning models that rely heavily on vast and diverse datasets. 
 However, the acquisition of such data comes with significant challenges, including limited access, high costs, and concerns about data privacy and control. 
